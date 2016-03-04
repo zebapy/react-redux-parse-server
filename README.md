@@ -12,23 +12,10 @@
 
 ## Initializing
 
-1. Install dependencies:
-```bash
-npm install
-```
-
+1. Install dependencies `npm install`
 2. Make sure you have MongoDB running locally or you've swapped out the `databaseURI` in `src/server.js`
-
-3. Run server and Parse:
-```bash
-npm start
-```
-
-4. Open another terminal and run:
-```bash
-npm run watch-client
-```
-...to run Webpack to bundle files into `main.js`:
+3. Run server and Parse `npm start`
+4. Open another terminal and run `npm run watch-client` to run Webpack to bundle files into `main.js`:
 
 ## Environment variables
 
