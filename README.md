@@ -12,17 +12,19 @@
 
 ## Initializing
 
-Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-Run server and Parse:
+2. Make sure you have MongoDB running locally or you've swapped out the `databaseURI` in `src/server.js`
+
+3. Run server and Parse:
 ```bash
 npm start
 ```
 
-Open another terminal and run:
+4. Open another terminal and run:
 ```bash
 npm run watch-client
 ```
