@@ -19,7 +19,7 @@ const port = process.env.PORT || 3000;
 const api = new ParseServer({
   databaseURI: 'mongodb://localhost/dev',
   appId: config.parseAppId,
-  masterKey: 'MASTER_KEY_HERE',
+  masterKey: 'MASTER_KEY_HERE' // ######## CHANGE ME FOR PRODUCTION ########
   serverURL: protocol + host + ':' + port
 });
 
