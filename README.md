@@ -14,6 +14,7 @@
 
 1. Install dependencies `npm install`
 2. Make sure you have MongoDB running locally or you've swapped out the `databaseURI` in `src/server.js`
+  - Read more about [ParseServer config](https://github.com/ParsePlatform/parse-server#parse-server--express)
 3. Run server and Parse `npm start`
 4. Open another terminal and run `npm run watch-client` to run Webpack to bundle files into `main.js`:
 
