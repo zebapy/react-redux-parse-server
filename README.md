@@ -10,7 +10,7 @@
 - Linting with [ESLint](http://eslint.org/)
 - All transformed with [Babel](babeljs.io)
 
-## Initializing
+## Getting started
 
 1. Install dependencies `npm install`
 2. Make sure you have MongoDB running locally or you've swapped out the `databaseURI` in `src/server.js`
