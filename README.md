@@ -1,6 +1,8 @@
 # React Redux Parse Server
 
 [![Build Status](https://travis-ci.org/zebapy/react-redux-parse-server.svg?branch=master)](https://travis-ci.org/zebapy/react-redux-parse-server)
+[![Dependency Status](https://david-dm.org/zebapy/react-redux-parse-server.svg)](https://david-dm.org/zebapy/react-redux-parse-server)
+[![devDependency Status](https://david-dm.org/zebapy/react-redux-parse-server/dev-status.svg)](https://david-dm.org/zebapy/react-redux-parse-server#info=devDependencies)
 
 - Server side rendering with [ExpressJS](http://expressjs.com/)
 - Routing with the standard [React Router](https://github.com/reactjs/react-router)
