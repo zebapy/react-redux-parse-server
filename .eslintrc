@@ -1,0 +1,48 @@
+{
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": 1,
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "comma-dangle": 1,
+    "babel/object-shorthand": 1,
+    "react/jsx-uses-react": 2,
+    "react/jsx-no-duplicate-props": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/jsx-no-undef": 2,
+    # "react/jsx-space-before-closing": [2, "always"],
+    "react/jsx-indent-props": [1, 2],
+    "react/jsx-curly-spacing": [2, "never"],
+    # "react/jsx-no-bind": 2,
+    "react/prop-types": 1,
+    "react/wrap-multilines": 1,
+    "jsx-quotes": 2,
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "curly": 1,
+    "semi": 1,
+    "space-in-parens": 1,
+    "object-curly-spacing": [2, "always"],
+    # "template-curly-spacing": 2,
+    "array-bracket-spacing": 1,
+    "handle-callback-err": 2
+  },
+  "plugins": [
+    "babel",
+    "react"
+  ],
+  "globals": {
+    "__DEVELOPMENT__": true,
+    "__CLIENT__": true,
+    "__SERVER__": true,
+    "__DEVTOOLS__": true
+  }
+}
