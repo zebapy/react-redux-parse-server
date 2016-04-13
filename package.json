@@ -10,7 +10,7 @@
     "start-dev": "node index.js",
     "build": "npm run clean && npm run build:webpack",
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
-    "postinstall": "npm run build",
+    "heroku-postbuild": "npm run build",
     "watch-client": "node webpack-dev-server",
     "dev": "concurrent --kill-others \"npm run start-dev\" \"npm run watch-client\"",
     "lint": "eslint -c .eslintrc src/",
