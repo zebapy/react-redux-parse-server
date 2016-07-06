@@ -78,6 +78,6 @@
     "redux-devtools-log-monitor": "^1.0.9",
     "redux-logger": "^2.5.2",
     "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.10.0"
+    "webpack-hot-middleware": "^2.12.1"
   }
 }
