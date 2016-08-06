@@ -1,5 +1,7 @@
-# React Redux Parse Server
+## *UPDATE* :rotating_light:
+I've started working on a new boilerplate using the new [create-react-app](https://github.com/facebookincubator/create-react-app). There's no server side rendering, but it's more "lightweight". You can check it out here :point_right: [create-react-app-parse-redux](https://github.com/zebapy/create-react-app-parse-redux)
 
+# React Redux Parse Server
 [![Build Status](https://travis-ci.org/zebapy/react-redux-parse-server.svg?branch=master)](https://travis-ci.org/zebapy/react-redux-parse-server)
 [![Dependency Status](https://david-dm.org/zebapy/react-redux-parse-server.svg)](https://david-dm.org/zebapy/react-redux-parse-server)
 [![devDependency Status](https://david-dm.org/zebapy/react-redux-parse-server/dev-status.svg)](https://david-dm.org/zebapy/react-redux-parse-server#info=devDependencies)
