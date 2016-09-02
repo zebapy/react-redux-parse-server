@@ -55,7 +55,7 @@
     "react-redux": "^4.4.4",
     "react-router": "^2.1.1",
     "redux": "^3.4.0",
-    "redux-form": "^5.0.1",
+    "redux-form": "^6.0.2",
     "redux-thunk": "^2.0.1",
     "rimraf": "^2.5.0",
     "serialize-javascript": "^1.1.2",
